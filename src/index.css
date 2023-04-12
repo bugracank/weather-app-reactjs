@@ -1,0 +1,90 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+.warm {
+  background-image: url(./assets/warm.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.cold {
+  background-image: url(./assets/cloudy.jpg);
+  height: 100vh;
+}
+.date {
+  display: flex;
+  justify-content: flex-end;
+}
+.date p {
+  background-color: #464343;
+  padding: 0.7rem;
+  border-radius: 1rem;
+}
+.hour {
+  display: flex;
+  margin-top: -10rem;
+  align-items: center;
+  justify-content: center;
+  font-size: 15rem;
+  color: #302f2f;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -14rem;
+}
+.search input {
+  width: 50%;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.location p {
+  color: #464343;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  font-size: 1.2rem;
+}
+.location span {
+  color: yellow;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  font-size: 1.2rem;
+}
+.weather-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.weather {
+  text-transform: capitalize;
+  color: #464343;
+  font-size: 1.3rem;
+}
+.temp {
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  font-size: 1.5rem;
+  color: #464343;
+}
